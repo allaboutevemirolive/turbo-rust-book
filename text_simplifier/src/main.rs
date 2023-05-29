@@ -3,7 +3,7 @@ use std::io::{BufReader, BufWriter, Read, Write};
 
 fn main() {
     let input_file    = "input.txt";
-    let output_file   = "7.1. Packages and Crates.md";
+    let output_file   = "7.3. Paths for Referring to an Item in the Module Tree.md";
     let output_file = output_file.replace(" ", "_").to_lowercase();
 
     let mut new_text = String::new();
