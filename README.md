@@ -50,7 +50,6 @@ This code processes a text file containing multiple sentences and formats it by 
 Let's go through the code line by line:
 
 
-
 ```rust
 use std::fs::File; 
 ```
@@ -64,7 +63,7 @@ References:
 ```rust
 use std::io::{BufReader, BufWriter, Read, Write};: 
 ```
-Imports `BufReader`, `BufWriter`, `Read`, and `Write` traits from the std::io module. These are used for buffered reading and writing of files.
+Imports `BufReader`, `BufWriter`, `Read`, and `Write` traits from the `std::io` module. These are used for buffered reading and writing of files.
 
 References:
 - https://doc.rust-lang.org/std/io/struct.BufWriter.html
@@ -75,7 +74,7 @@ References:
 ```rust
 fn main() {
 ```
-Defines the main function, which is the entry point of the program
+Defines the main function, which is the entry point of the program.
 
 References:
 - https://doc.rust-lang.org/book/ch03-03-how-functions-work.html
@@ -114,14 +113,14 @@ Creates a mutable String variable `new_text` to store the formatted text.
 ```rust
 let file = File::open(input_file).expect("Unable to open input file");
 ```
-Opens the input file for reading and panics with an error message if it fails
+Opens the input file for reading and panics with an error message if it fails.
 
 
 
 ```rust
 let mut buf_reader = BufReader::new(file);
 ```
-Creates a buffered reader for the input file
+Creates a buffered reader for the input file.
 
 References:
 - https://doc.rust-lang.org/std/io/struct.BufReader.html
@@ -138,7 +137,7 @@ Creates a mutable String variable data to store the contents of the input file.
 ```rust
 buf_reader.read_to_string(&mut data).expect("Unable to read input file");
 ```
-Reads the entire input file into the data variable and panics with an error message if it fails
+Reads the entire input file into the data variable and panics with an error message if it fails.
 
 References:
 - https://rust-lang-nursery.github.io/rust-cookbook/file/read-write.html
@@ -148,7 +147,7 @@ References:
 ```rust
 data = data.replace(". ", ".\n");
 ```
-Replaces occurrences of ". " with ".\n" in the data variable, adding a newline after each sentence.
+Replaces occurrences of `". "` with `".\n"` in the data variable, adding a newline after each sentence.
 
 
  
@@ -162,14 +161,14 @@ Creates a mutable iterator over the characters in data that allows peeking at th
 ```rust
 while let Some(c) = data_chars.next() { ... }
 ```
-Iterates over each character in data_chars.
+Iterates over each character in `data_chars`.
 
 
  
 ```rust
 match c { ... }
 ```
-A match statement that checks the current character c against different cases.
+A match statement that checks the current character `c` against different cases.
 
 References:
 - https://doc.rust-lang.org/rust-by-example/flow_control/match.html
@@ -179,45 +178,46 @@ References:
 ```rust
 '{' => new_text.push('{'),
 ```
-If `c` is '{', it appends it to new_text.
+If `c` is '{', it appends it to `new_text`.
 
 
 
 ```rust
 '}' => new_text.push('}'),
 ```
-If `c` is '}', it appends it to new_text.
+If `c` is `'}'`, it appends it to `new_text`.
 
 
 
 ```rust
 '.' => { ... }
 ```
-If `c` is '.', it appends it to new_text and checks the next character to determine if a newline should be added.
+If `c` is `'.'`, it appends it to `new_text` and checks the next character to determine if a newline should be added.
 
 
 
 ```rust
 _ => new_text.push(c),
 ```
-For any other character, it appends it to new_text.
+For any other character, it appends it to `new_text`.
 
 
 
 ```rust
 let output_file = File::create(output_file).expect("Unable to create output file");
 ```
-Creates the output file for writing and panics with an error message if it fails
+Creates the output file for writing and panics with an error message if it fails.
 
 References:
 - https://doc.rust-lang.org/std/fs/struct.File.html
 - https://rust-lang-nursery.github.io/rust-cookbook/file/read-write.html
 
 
+
 ```rust
 let mut buf_writer = BufWriter::new(output_file);
 ```
-Creates a buffered writer for the output file
+Creates a buffered writer for the output file.
 
 References:
 - https://doc.rust-lang.org/std/io/struct.BufWriter.html
@@ -227,7 +227,7 @@ References:
 ```rust
 buf_writer.write_all(new_text.as_bytes()).expect("Unable to write to output file");
 ```
-Writes the formatted text (new_text) to the output file and panics with an error message if it fails
+Writes the formatted text `(new_text)` to the output file and panics with an error message if it fails.
 
 References:
 - https://rust-lang-nursery.github.io/rust-cookbook/file/read-write.html
