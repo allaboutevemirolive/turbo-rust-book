@@ -3,11 +3,11 @@ use std::io::{BufReader, BufWriter, Read, Write};
 use std::path::{Path, PathBuf};
 
 fn main() {
-    let input_file = "input.txt";
-    let output_file = "7.3. Paths for Referring to an Item in the Module Tree.md";
+    let input_file     = "input.txt";
+    let output_file    = "7.4. Bringing Paths Into Scope with the use Keyword.md";
     let output_file = format_output_file_name(output_file);
 
-    let data = read_input_file(input_file).expect("Unable to read input file");
+    let data     = read_input_file(input_file).expect("Unable to read input file");
     let new_text = process_data(&data);
 
     write_output_file(&output_file, &new_text).expect("Unable to write to output file");
