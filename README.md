@@ -1,6 +1,17 @@
 # turbo-rust-book
 A blank space between each sentence to make reading `The Rust Programming Language` simpler.
 
+### First release version: 
+- 1.0.0
+
+### Current release version: 
+- 1.0.4
+
+___
+
+Code explanation on version: 
+- 1.0.0
+
 ```rust
 use std::fs::File;
 use std::io::{BufReader, BufWriter, Read, Write};
