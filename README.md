@@ -175,6 +175,7 @@ References:
 - https://doc.rust-lang.org/book/ch06-02-match.html
 
 
+
 ```rust
 '{' => new_text.push('{'),
 ```
@@ -193,6 +194,34 @@ If `c` is `'}'`, it appends it to `new_text`.
 '.' => { ... }
 ```
 If `c` is `'.'`, it appends it to `new_text` and checks the next character to determine if a newline should be added.
+
+
+
+```rust
+new_text.push('.');
+```
+Appends the period `('.')` to the `new_text` variable.
+
+
+
+```rust
+if let Some(&next_char) = data_chars.peek() {
+```  
+Peeks at the next character in the `data_chars` iterator without consuming it. If there is a next character, it binds the value to `next_char`.
+
+
+
+```rust
+if next_char != 'r' && !next_char.is_digit(10) {
+```
+Checks if the next character is not `'r'` and not a digit (base 10). This condition is used to avoid adding a newline after a period that is part of an abbreviation (e.g., "Mr.") or a number (e.g., "3.14").
+
+
+
+```rust
+new_text.push('\n');
+```
+If the condition in step 3 is true, appends a newline character `('\n')` to `new_text`, effectively separating sentences with a blank space.
 
 
 
