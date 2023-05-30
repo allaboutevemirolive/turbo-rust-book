@@ -179,7 +179,7 @@ References:
 ```rust
 '{' => new_text.push('{'),
 ```
-If `c` is '{', it appends it to `new_text`.
+If `c` is `'{'`, it appends it to `new_text`.
 
 
 
