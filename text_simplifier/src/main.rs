@@ -4,7 +4,7 @@ use std::path::{Path, PathBuf};
 
 fn main() {
     let input_file     = "input.txt";
-    let output_file    = "8.1. Storing Lists of Values with Vectors.md";
+    let output_file    = "output.md";
     let output_file = format_output_file_name(output_file);
 
     let data = read_input_file(input_file).expect("Unable to read input file");
