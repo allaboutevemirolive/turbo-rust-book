@@ -4,10 +4,10 @@ use std::path::{Path, PathBuf};
 
 fn main() {
     let input_file     = "input.txt";
-    let output_file    = "7.4. Bringing Paths Into Scope with the use Keyword.md";
+    let output_file    = "output.md";
     let output_file = format_output_file_name(output_file);
 
-    let data     = read_input_file(input_file).expect("Unable to read input file");
+    let data = read_input_file(input_file).expect("Unable to read input file");
     let new_text = process_data(&data);
 
     write_output_file(&output_file, &new_text).expect("Unable to write to output file");
@@ -44,7 +44,7 @@ fn process_data(data: &str) -> String {
                 '.' => {
                     new_text.push('.');
                     if let Some(&next_char) = data_chars.peek() {
-                        if next_char != 'r' && !next_char.is_digit(10) {
+                        if !next_char.is_ascii_lowercase() && !next_char.is_digit(10) {
                             new_text.push('\n');
                         }
                     }

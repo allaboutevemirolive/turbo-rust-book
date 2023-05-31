@@ -5,7 +5,7 @@ A blank space between each sentence to make reading `The Rust Programming Langua
 - 1.0.0
 
 ### Current release version: 
-- 1.0.4
+- 1.0.5
 
 ___
 
