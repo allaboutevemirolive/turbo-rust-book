@@ -4,7 +4,7 @@ use std::path::{Path, PathBuf};
 
 fn main() {
     let input_file     = "input.txt";
-    let output_file    = "9.3. To panic or Not to panic.md";
+    let output_file    = "10. Generic Types, Traits, and Lifetimes.md";
     let output_file = format_output_file_name(output_file);
 
     let data = read_input_file(input_file).expect("Unable to read input file");
