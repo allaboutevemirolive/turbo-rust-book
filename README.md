@@ -4,8 +4,41 @@ A blank space between each sentence to make reading `The Rust Programming Langua
 ### First release version: 
 - 1.0.0
 
-### Current release version: 
-- 1.0.5
+### Current using version:
+- 1.0.5 
+
+### Latest release version: 
+- 1.0.6 (experiment)
+
+___
+
+Highly psuedo code:
+
+In a complete sentence, the end of the sentence is marked by a dot sign.
+
+For each dot sign detected, add a blank space after it. Then, continue to the next sentence.
+
+## Use cases:
+
+- If the dot sign is followed by a lowercase letter
+
+it's probably not the end of the sentence. So, don't add a blank space after it.
+
+For example: 
+
+`main.rs` or `cargo.toml` is the name of a file, not the end of a sentence.
+
+`x.find_next().unwrap()` is a method call, not the end of a sentence.
+
+
+- If the dot sign is followed by a number
+
+
+
+- Anything that is inside of a pair of braces
+
+
+- If the dot sign is followed by another dot sign
 
 ___
 
