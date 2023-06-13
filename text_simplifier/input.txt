@@ -1,4 +1,26 @@
-How to Write Tests
+
+...
+
+...,
+
+{...}
+
+.Help means
+
+.help means
+
+Cargo.tom
+
+Cargo.Tom
+
+okay. mean
+
+Okay. Mean
+
+Click here to view code image
+
+
+How to Write Tests // Click here to view code image
 Tests are Rust functions that verify that the non-test code is functioning in the expected manner. The bodies of test functions typically perform these three actions:
 
 Set up any needed data or state.
@@ -638,6 +660,11 @@ mod tests {
         }
     }
 }
+
+....
+
+..., ,....
+
 The it_works function now has the Result<(), String> return type. In the body of the function, rather than calling the assert_eq! macro, we return Ok(()) when the test passes and an Err with a String inside when the test fails.
 
 Writing tests so they return a Result<T, E> enables you to use the question mark operator in the body of tests, which can be a convenient way to write tests that should fail if any operation within them returns an Err variant.
