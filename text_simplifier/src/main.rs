@@ -4,7 +4,7 @@ use std::path::{Path, PathBuf};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let input_file = "input.txt";
-    let output_file = "Bombayyah.md";
+    let output_file = "11.2. Controlling How Tests Are Run.md";
     let text_to_be_replaced = "Click here to view code image";
     let output_file = format_output_file_name(output_file)?;
 
@@ -54,7 +54,6 @@ fn process_data(
 ) -> Result<String, Box<dyn std::error::Error>> {
     let data = delete_entire_line(&data, &text_to_be_replaced);
     let data = data.replace(". ", ".\n");
-    // let data = process_sentence (&data);
     let mut inside_braces = false;
     let mut new_text = String::new();
 
