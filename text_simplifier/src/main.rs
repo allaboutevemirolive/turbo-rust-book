@@ -4,7 +4,7 @@ use std::path::{Path, PathBuf};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let input_file = "input.txt";
-    let output_file = "11.2. Controlling How Tests Are Run.md";
+    let output_file = "12.2. Reading a File.md";
     let text_to_be_replaced = "Click here to view code image";
     let output_file = format_output_file_name(output_file)?;
 

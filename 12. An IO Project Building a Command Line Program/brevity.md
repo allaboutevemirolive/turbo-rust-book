@@ -1,0 +1,3 @@
+brevity
+
+ketangkasan, kecekapan|

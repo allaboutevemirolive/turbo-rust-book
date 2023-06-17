@@ -1,3 +1,8 @@
+# Ignore compiled binaries and build artifacts
+target/
+*.exe
+*.o
+
 # Ignore folder
 text_simplifier/
 script/

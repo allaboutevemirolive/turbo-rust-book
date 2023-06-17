@@ -1,0 +1,3 @@
+conform
+
+selaras dengan, menurut

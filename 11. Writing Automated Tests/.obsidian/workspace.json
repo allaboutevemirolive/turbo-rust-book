@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8aac8a12277b5c3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "threads.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11._writing_automated_tests.md",
+                "file": "threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "11._writing_automated_tests.md",
+                "file": "threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "11._writing_automated_tests.md"
+                "file": "threads.md"
               }
             }
           }
@@ -146,8 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90b32759338fb7db",
+  "active": "8aac8a12277b5c3b",
   "lastOpenFiles": [
+    "Untitled.md",
+    "11._writing_automated_tests.md",
+    "threads.md",
     "11.1._how_to_write_tests.md",
     "11.2._controlling_how_tests_are_run.md",
     "11.3._test_organization.md",
@@ -165,7 +181,6 @@
     "text_organization/target/debug/deps/libtext_organization-657b477305a20853.rmeta",
     "integration tests.md",
     "private interfaces.md",
-    "threads.md",
     "Untitled.canvas",
     "2023-06-16.md",
     "pertaining.md",
