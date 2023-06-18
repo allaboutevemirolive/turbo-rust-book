@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12.4._developing_the_library’s_functionality_with_test_driven_development.md",
+                "file": "12.6._writing_error_messages_to_standard_error_instead_of_standard_output.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "53d58b49d5f2a739",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12.4._developing_the_library’s_functionality_with_test_driven_development.md",
+                "file": "12.6._writing_error_messages_to_standard_error_instead_of_standard_output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12.4._developing_the_library’s_functionality_with_test_driven_development.md",
+                "file": "12.6._writing_error_messages_to_standard_error_instead_of_standard_output.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12.4._developing_the_library’s_functionality_with_test_driven_development.md"
+                "file": "12.6._writing_error_messages_to_standard_error_instead_of_standard_output.md"
               }
             }
           }
@@ -149,6 +148,14 @@
   },
   "active": "ddb951989c9f5c55",
   "lastOpenFiles": [
+    "I_O operations in Rust.md",
+    "12.6._writing_error_messages_to_standard_error_instead_of_standard_output.md",
+    "I/O.md",
+    "I",
+    "12.5._working_with_environment_variables.md",
+    "precedence.md",
+    "TDD.md",
+    "12.4._developing_the_library’s_functionality_with_test_driven_development.md",
     "12.3._refactoring_to_improve_modularity_and_error_handling.md",
     "brevity.md",
     "12.2._reading_a_file.md",

@@ -4,7 +4,7 @@ use std::path::{Path, PathBuf};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let input_file = "input.txt";
-    let output_file = "12.4. Developing the Library’s Functionality with Test Driven Development.md";
+    let output_file = "12.6. Writing Error Messages to Standard Error Instead of Standard Output.md";
     let text_to_be_replaced = "Click here to view code image";
     let output_file = format_output_file_name(output_file)?;
 
