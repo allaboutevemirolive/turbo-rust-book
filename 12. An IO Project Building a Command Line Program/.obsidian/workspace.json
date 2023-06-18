@@ -13,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12.3._refactoring_to_improve_modularity_and_error_handling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "50efd1ff0e7dea53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Code.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f97d0ad46cdd43b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12.2._reading_a_file.md",
+                "file": "12.4._developing_the_library’s_functionality_with_test_driven_development.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "53d58b49d5f2a739",
@@ -109,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12.3._refactoring_to_improve_modularity_and_error_handling.md",
+                "file": "12.4._developing_the_library’s_functionality_with_test_driven_development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12.3._refactoring_to_improve_modularity_and_error_handling.md",
+                "file": "12.4._developing_the_library’s_functionality_with_test_driven_development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12.3._refactoring_to_improve_modularity_and_error_handling.md"
+                "file": "12.4._developing_the_library’s_functionality_with_test_driven_development.md"
               }
             }
           }
@@ -172,8 +149,8 @@
   },
   "active": "ddb951989c9f5c55",
   "lastOpenFiles": [
-    "brevity.md",
     "12.3._refactoring_to_improve_modularity_and_error_handling.md",
+    "brevity.md",
     "12.2._reading_a_file.md",
     "Code.md",
     "conform.md",
