@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "threads.md",
+                "file": "11.1._how_to_write_tests.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b71e7390efba86d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TEST.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "14243180b3e1d21d",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "threads.md",
+                "file": "TEST.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "threads.md",
+                "file": "TEST.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "threads.md"
+                "file": "TEST.md"
               }
             }
           }
@@ -159,14 +172,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8aac8a12277b5c3b",
+  "active": "3b71e7390efba86d",
   "lastOpenFiles": [
-    "Untitled.md",
-    "11._writing_automated_tests.md",
-    "threads.md",
     "11.1._how_to_write_tests.md",
+    "TEST.md",
     "11.2._controlling_how_tests_are_run.md",
     "11.3._test_organization.md",
+    "threads.md",
+    "11._writing_automated_tests.md",
     "`assert!(value.is_err())`.md",
     "11.1._zQa.md",
     "text_organization/target/debug/incremental/integration_test-7buw473kcct0/s-glyjgsy4zb-1wwc8cz-working/dep-graph.part.bin",
