@@ -1,64 +1,51 @@
 {
   "main": {
-    "id": "0b3b8a05d2767d2b",
+    "id": "9c3f21f3f337c62c",
     "type": "split",
     "children": [
       {
-        "id": "9b862244fdf6258f",
+        "id": "4dfb401e240b03af",
         "type": "tabs",
         "children": [
           {
-            "id": "90b32759338fb7db",
+            "id": "42b6cc544023abf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11._writing_automated_tests.md",
+                "file": "13.1. Closures: Anonymous Functions that Capture Their Environment.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8aac8a12277b5c3b",
+            "id": "f3d2c402e94dafc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11.1._how_to_write_tests.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b71e7390efba86d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TEST.md",
+                "file": "Explain 13-4.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5ea6f609604f909b",
+    "id": "4f2d02e5d6f72ce2",
     "type": "split",
     "children": [
       {
-        "id": "fbb701ca935c1c30",
+        "id": "ee93c11cee26b9eb",
         "type": "tabs",
         "children": [
           {
-            "id": "11c15c489f3bcead",
+            "id": "902aeb9b0763538d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +55,7 @@
             }
           },
           {
-            "id": "c82ece4e64fecb4b",
+            "id": "f39439961f18061a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +70,7 @@
             }
           },
           {
-            "id": "3851731885582346",
+            "id": "4c8c37b2dc87cd7a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,23 +81,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "14243180b3e1d21d",
+    "id": "4da6b599bb07336e",
     "type": "split",
     "children": [
       {
-        "id": "2a1ccd56a879be9f",
+        "id": "f111cdb811e1ce4b",
         "type": "tabs",
         "children": [
           {
-            "id": "5a55c4e69c69dc50",
+            "id": "01fce10b71d7af1b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TEST.md",
+                "file": "13.1. Closures: Anonymous Functions that Capture Their Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,19 +110,19 @@
             }
           },
           {
-            "id": "fe825921a58e997d",
+            "id": "ed7577e6c4a4c901",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TEST.md",
+                "file": "13.1. Closures: Anonymous Functions that Capture Their Environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "58d6f8d2af4d2dc4",
+            "id": "8365887f164ddb00",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,12 +133,12 @@
             }
           },
           {
-            "id": "dce8143e3181e596",
+            "id": "244fbd4988c16462",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "TEST.md"
+                "file": "13.1. Closures: Anonymous Functions that Capture Their Environment.md"
               }
             }
           }
@@ -171,32 +159,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3b71e7390efba86d",
+  "active": "42b6cc544023abf3",
   "lastOpenFiles": [
-    "11.1._how_to_write_tests.md",
-    "TEST.md",
-    "11.2._controlling_how_tests_are_run.md",
-    "11.3._test_organization.md",
-    "threads.md",
-    "11._writing_automated_tests.md",
-    "`assert!(value.is_err())`.md",
-    "11.1._zQa.md",
-    "text_organization/target/debug/incremental/integration_test-7buw473kcct0/s-glyjgsy4zb-1wwc8cz-working/dep-graph.part.bin",
-    "text_organization/target/debug/incremental/integration_test-7buw473kcct0/s-glyjgsy4zb-1wwc8cz-working",
-    "text_organization/target/debug/incremental/integration_test-7buw473kcct0/s-glyjgsy4zb-1wwc8cz.lock",
-    "text_organization/target/debug/deps/integration_test-be92025f688c5955.d",
-    "text_organization/target/debug/incremental/text_organization-2k0ie3g953ewe/s-glyjf835el-1539x4b-24fca883qh6l4/work-products.bin",
-    "text_organization/target/debug/incremental/text_organization-2k0ie3g953ewe/s-glyjf835el-1539x4b-24fca883qh6l4/query-cache.bin",
-    "text_organization/target/debug/incremental/text_organization-2k0ie3g953ewe/s-glyjf835el-1539x4b-24fca883qh6l4/dep-graph.bin",
-    "text_organization/target/debug/incremental/text_organization-2k0ie3g953ewe/s-glyjf835el-1539x4b-24fca883qh6l4",
-    "text_organization/target/debug/incremental/text_organization-2k0ie3g953ewe/s-glyjf835el-1539x4b-working/query-cache.bin",
-    "text_organization/target/debug/deps/libtext_organization-657b477305a20853.rmeta",
-    "integration tests.md",
-    "private interfaces.md",
-    "Untitled.canvas",
-    "2023-06-16.md",
-    "pertaining.md",
-    "concurrency-related bugs.md",
-    "data races.md"
+    "convoluted.md",
+    "13.1. Closures: Anonymous Functions that Capture Their Environment.md",
+    "contrived.md",
+    "more correct example 13-6.md",
+    "What is thread in Rust.md",
+    "take ownership of list.md",
+    "Explanation 13-6.md",
+    "spawning.md",
+    "move keyword before the parameter list of the closure.md",
+    "Print list with immutable borrow between closure def. and closure call.md",
+    "Explanation 13-5.md",
+    "immutable borrow.md",
+    "mutable borrow.md",
+    "What is \"star\" in Rust.md",
+    "More explanation 13-4.md",
+    "Explain 13-4.md",
+    "more explanation on how closure similar to function.md",
+    "closure similar to function.md",
+    "Explain_1 13-2.md",
+    "13-2 Main function.md",
+    "Explanation_1 13-1.md",
+    "Explanation_3 13-1.md",
+    "rare cases.md",
+    "Explain rare case.md",
+    "Explanation_2 13-1.md",
+    "13. Functional Language Features: Iterators and Closures.md"
   ]
 }
