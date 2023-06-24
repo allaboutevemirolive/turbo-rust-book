@@ -12,7 +12,8 @@ In this analogy, the whiteboard represents shared data, and Alice and Bob repres
 
 To avoid data races and ensure consistent updates, the workers need to establish rules for accessing the whiteboard. They can take turns, use locks to ensure exclusive access, or communicate with each other to coordinate their actions. Similarly, in concurrent programming, synchronization mechanisms such as locks, mutexes, or channels are used to coordinate access to shared data among multiple threads, preventing data races and maintaining program correctness.
 
----
+___
+
 Explain to me about data races?
 
 A data race occurs in a concurrent program when two or more threads access shared data concurrently without proper synchronization, and at least one of the accesses is a write operation. Data races can lead to undefined behavior, making concurrent programs unpredictable and difficult to reason about.
