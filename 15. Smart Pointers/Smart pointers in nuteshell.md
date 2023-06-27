@@ -91,3 +91,8 @@ These are just a few examples of smart pointers in Rust.
 
 They enable various memory management strategies, such as ownership, shared ownership, and interior mutability, while enforcing Rust's strict ownership and borrowing rules at compile time to prevent common memory-related bugs like dangling references and data races.
 
+
+
+Thread:
+
+[[Stack and Heap in rust]]
