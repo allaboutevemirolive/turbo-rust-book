@@ -15,6 +15,8 @@ QA:
 
 [[raw pointers, references, and smart pointers]]
 
+[[advantages and disadvantages of raw pointers]]
+
 
 Different from references and smart pointers, raw pointers:
 

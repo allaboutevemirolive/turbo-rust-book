@@ -48,3 +48,6 @@ Bodies of unsafe functions are effectively `unsafe` blocks, so to perform other 
 
 
 [[Creating a Safe Abstraction over Unsafe Code]]
+
+
+[[Accessing or Modifying a Mutable Static Variable]]
